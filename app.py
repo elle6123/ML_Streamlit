@@ -14,7 +14,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.text("Sepal characteristics")
-    sepal_l = st.slider('Sepal lenght (cm)', 1.0, 8.0, 0.5)
+    sepal_l = st.slider('Sepal lenght (cm)', 2.0, 10.0, 0.4)
     sepal_w = st.slider('Sepal width (cm)', 2.0, 4.4, 0.5)
 
 with col2:
